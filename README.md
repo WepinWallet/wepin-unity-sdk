@@ -12,7 +12,7 @@ Contact to wepin.contact@iotrust.kr
 
 ### wepin-unity-sdk
 
-Download wepinSDK_vX.X.X.unitypackage from our github and import the package file into your Unity3D project.
+Download <wepinSDK_vX.X.X.unitypackage> file from our [github](https://github.com/WepinWallet/wepin-unity-sdk.git) and import the package file into your Unity3D project.
 
 If you encounter errors below when importing this package, 
 
