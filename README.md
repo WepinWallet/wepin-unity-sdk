@@ -22,6 +22,20 @@ The type or namespace name 'Newtonsoft' could not be found (are you missing a us
 
 Please add dependency "com.unity.nuget.newtonsoft-json": "3.0.2" Packages/manifest.json file in your project's root
 
+## ⏩ Add dependencies For Android
+
+Add the below line in your app's `mainTemplate.gradle` file
+
+```xml
+dependencies {
+    // Need to Use Wepin
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation(name: 'WebViewPlugin', ext:'aar')
+    implementation 'androidx.browser:browser:1.4.0'
+    // 
+}
+```
+
 ## ⏩ Config Deep Link
 
 Deep link scheme format: Your app package name or bundle id + '.wepin'

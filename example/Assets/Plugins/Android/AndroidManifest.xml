@@ -18,7 +18,7 @@
 				<action android:name="android.intent.action.VIEW" />
 				<category android:name="android.intent.category.DEFAULT" />
 				<category android:name="android.intent.category.BROWSABLE" />
-				<data android:scheme="com.wepin.rn.sample.wepin"/>
+				<data android:scheme="com.wepin.unity.sample.wepin"/>
 			</intent-filter>            
             <meta-data android:name="unityplayer.UnityActivity" android:value="true"/>
         </activity>

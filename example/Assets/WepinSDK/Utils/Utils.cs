@@ -9,7 +9,7 @@ public static class Utils {
 
         if( appKey.StartsWith("ak_dev_") ){
             wepinUrl = "https://dev-widget.wepin.io";
-        }else if( appKey.StartsWith("ak_stage_") ){
+        }else if( appKey.StartsWith("ak_test_") ){
             wepinUrl = "https://stage-widget.wepin.io";
         }else if( appKey.StartsWith("ak_live_") ){
             wepinUrl = "https://widget.wepin.io";
